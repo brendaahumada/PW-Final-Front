@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+    justify-content:space-around;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(119, 119, 119);
+    overflow: hidden;
+    
+}
+
+.tab{
+    flex: 1;
+    svg{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+.seleccionado{
+    background-color: rgb(73, 15, 107)
+}
