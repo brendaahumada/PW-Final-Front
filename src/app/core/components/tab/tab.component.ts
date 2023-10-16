@@ -21,7 +21,7 @@ export class TabComponent {
             this.seleccionado = [false, true, false];
             break;
           case "/addcontact":
-            this.seleccionado = [true, false, true];
+            this.seleccionado = [false, false, true];
             break;
           default:
            this.seleccionado = [false, false, false];
